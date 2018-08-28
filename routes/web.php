@@ -15,4 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::post('',function(){
+
+//});
+
 Route::get('users',['uses'=>'userController@index']);
+
